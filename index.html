@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Album example for Bootstrap</title>
+
+    <!--CSS-->
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js" ></script>
+  </head>
+
+  <body>
+
+    <div class="main">
+        <form name="form" onsubmit="event.preventDefault();" id="myform" class="formstyle">
+            <table class="formtb" >
+                <tr>
+                    <td>Name: </td>
+                    <td><input type="text" name="name" placeholder="Enter Your Name" id="name" onfocusout="nameFieldHandler()" /></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email" name="email" placeholder="Enter Your Email" id="email" onfocusout="emailFieldHandler()" /></td>
+                </tr>
+                <tr>
+                    <td>Card: </td>
+                    <td><input type="text" name="card" placeholder="Enter a Proxy Credit Card Number." id="card" onfocusout="cardFieldHandler()" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="center-content"><button name="submit" id="mySubmit" onclick="sendMailHandler()" >Submit</button></td>
+                </tr>
+            </table>
+            <div id="test"></div>
+        </form>
+
+    </div>
+  </body>
+</html>

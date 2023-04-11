@@ -1,0 +1,44 @@
+body {
+    font-family: 'Calibri','Times New Roman', Times, serif;
+}
+.main {
+    background-color: rgb(137, 200, 46);
+    color: rgb(60, 60, 59);
+    border: 3px solid black;
+    width: 20%;
+    padding: 2% 2% 0.8% 2%;
+    margin: 2%;
+    border-radius: 30px;
+}
+
+.formstyle table{
+    width: 100%;;
+}
+.main .formstyle input[type="text"], .main .formstyle input[type="email"] {
+    width: 100%;
+    height: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.formstyle button {
+    background-color: rgb(231, 0, 100);
+    border-color: rgb(231, 0, 100);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+/* validation */
+.DNGreen {
+    border: 3px solid rgb(137,200,46) ;
+}
+
+.DNPink {
+    border: 3px solid rgb(231, 0, 100);
+}
